@@ -12,7 +12,7 @@
     "@frida/assert": "^3.0.2",
     "@frida/base64-js": "^2.0.3",
     "@frida/buffer": "^7.0.4",
-    "@frida/crypto": "^1.0.1",
+    "@frida/crypto": "github:Furtif/gumjs-crypto#rev",
     "@frida/diagnostics_channel": "^1.0.0",
     "@frida/events": "^4.0.4",
     "@frida/http": "^4.0.2",
@@ -24,14 +24,16 @@
     "@frida/path": "^2.0.3",
     "@frida/process": "^1.2.1",
     "@frida/punycode": "^3.0.0",
+    "@frida/querystring": "^1.0.0",
     "@frida/stream": "^1.0.2",
     "@frida/string_decoder": "^2.0.0",
     "@frida/timers": "^3.0.0",
+    "@frida/tls": "github:Furtif/gumjs-tls#master",
     "@frida/tty": "^1.0.0",
-    "@frida/url": "^1.0.2",
+    "@frida/url": "github:Furtif/gumjs-url#feature/URL",
     "@frida/util": "^1.0.3",
-    "@frida/vm": "^2.0.0",  
-    "@frida/querystring": "^1.0.0",
+    "@frida/vm": "^2.0.0",
+    "@frida/zlib": "github:Furtif/gumjs-zlib#master",
     "frida-fs": "^5.2.5"
   }
 }
