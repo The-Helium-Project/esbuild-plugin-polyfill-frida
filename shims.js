@@ -21,7 +21,7 @@ module.exports = new Map([
     ["string_decoder", require.resolve("@frida/string_decoder")],
     ["timers", require.resolve("@frida/timers")],
     ["tty", require.resolve("@frida/tty")],
-    ["url", "./polyfills/url.js"],
+    ["url", require.resolve("@frida/url")],
     ["util", require.resolve("@frida/util")],
     ["vm", require.resolve("@frida/vm")],
     ["zlib", require.resolve("@frida/zlib")],
