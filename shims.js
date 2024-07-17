@@ -2,7 +2,7 @@ module.exports = new Map([
     ["assert", require.resolve("@frida/assert")],
     ["base64-js", require.resolve("@frida/base64-js")],
     ["buffer", require.resolve("@frida/buffer")],
-    ["crypto", "./polyfills/crypto.js"],
+    ["crypto", require.resolve("@frida/crypto")],
     ["diagnostics_channel", require.resolve("@frida/diagnostics_channel")],
     ["events", require.resolve("@frida/events")],
     ["fs", require.resolve("frida-fs")],
@@ -24,6 +24,6 @@ module.exports = new Map([
     ["url", "./polyfills/url.js"],
     ["util", require.resolve("@frida/util")],
     ["vm", require.resolve("@frida/vm")],
-    ["zlib", "./polyfills/empty.js"],
-    ["tls", "./polyfills/empty.js"]
+    ["zlib", require.resolve("@frida/zlib")],
+    ["tls", require.resolve("@frida/tls")]
 ]);
